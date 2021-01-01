@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
         Debug.Log(theRB2D.position.y);
         Dash();
         Teleport();
+
+        // change 12/31
     }
     void MovePlayer()
     {
