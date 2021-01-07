@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private bool canMove;
     private Rigidbody2D theRB2D;
     public float dashForce;
+    //bla bla bla 12/31 5:43
 
     // Start is called before the first frame update
     void Start()
